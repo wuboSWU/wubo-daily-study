@@ -4,12 +4,6 @@
 ## 2.JVM Stacks(虚拟机栈)
 线程私有，每个线程都有自己的虚拟机栈<br>
 里面存储的是栈帧<br>
-## 3，Method Area(方法区)
-1.jdk<1.8：Perm Space(永久代，FGC不会处理，可以理解为是一个严重的bug)<br>
-2.字符串常量位于run-time constant pool(运行时常量池)<br>
-3.jdk>=1.8 Meta Space(元空间，FGC会处理)<br>
-4.字符串常量位于heap<br>
-5.各个线程共享<br>
 ###栈帧
 1.Local Variable Table：局部变量表<br>
 2.Operand Stack<br>
@@ -32,10 +26,16 @@
 11.invokespecial：可以直接定位，不需要多态的方法，如private方法，构造方法<br>
 12.invokeinterface：接口调用，多态<br>
 13.invokedynamic：jdk1.7之前没有，lambda表达式或者反射或者其他动态语言，如Scala，动态产生的class需要用到的指令
+## 3.Method Area(方法区)
+1.jdk<1.8：Perm Space(永久代，FGC不会处理，可以理解为是一个严重的bug)<br>
+2.字符串常量位于run-time constant pool(运行时常量池)<br>
+3.jdk>=1.8 Meta Space(元空间，FGC会处理)<br>
+4.字符串常量位于heap<br>
+5.各个线程共享<br>
 ## 4.Native Method Stacks(本地方法栈)
 线程私有<br>
 ## 5.Direct Memory(直接内存)
 JVM可以直接访问内核的空间
 <br>NIO,提高效率，实现零拷贝
 ## 6.Heap(堆)
-各个先传给你共享<br>
+各个线程共享<br>
