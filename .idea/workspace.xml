@@ -5,9 +5,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="499e82e5-114e-4ada-818d-64d82518a7a7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/jvm/GC.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution11.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution12.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution29.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution33.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution43.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution44.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/html/小恐龙.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jvm/Arthas.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/jvm/JVMParameter.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/jvm/RunTimeDataArea.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jvm/RunTimeDataArea.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/jvm/GC.md" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/jvm/GC.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/jvm/RunTimeDataArea.md" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/jvm/RunTimeDataArea.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +31,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -169,12 +180,13 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.import.settings.migrated" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/pom.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources/html" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -183,13 +195,70 @@
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager">
-    <configuration name="IntegerToBinary" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="basic.IntegerToBinary" />
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/resources/html" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Solution44">
+    <configuration name="Solution11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jianzhiOffer2.Solution11" />
       <module name="daily-practice" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="basic.*" />
+          <option name="PATTERN" value="jianzhiOffer2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution12" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jianzhiOffer2.Solution12" />
+      <module name="daily-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jianzhiOffer2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution33" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jianzhiOffer2.Solution33" />
+      <module name="daily-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jianzhiOffer2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution43" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jianzhiOffer2.Solution43" />
+      <module name="daily-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jianzhiOffer2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution44" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="jianzhiOffer2.Solution44" />
+      <module name="daily-practice" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="jianzhiOffer2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -210,7 +279,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.IntegerToBinary" />
+        <item itemvalue="Application.Solution44" />
+        <item itemvalue="Application.Solution43" />
+        <item itemvalue="Application.Solution11" />
+        <item itemvalue="Application.Solution33" />
+        <item itemvalue="Application.Solution12" />
       </list>
     </recent_temporary>
   </component>
@@ -227,7 +300,10 @@
       <updated>1654831385148</updated>
       <workItem from="1654831387231" duration="654000" />
       <workItem from="1657121387661" duration="3350000" />
-      <workItem from="1659972629051" duration="13102000" />
+      <workItem from="1659972629051" duration="17279000" />
+      <workItem from="1661909479050" duration="17599000" />
+      <workItem from="1663769628104" duration="7466000" />
+      <workItem from="1665408739088" duration="102000" />
     </task>
     <servers />
   </component>
@@ -312,6 +388,53 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution29.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <condition expression="temp=='S'" language="JAVA" />
+          <url>file://$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution12.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution33.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution33.java</url>
+          <line>39</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution43.java</url>
+          <line>13</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution44.java</url>
+          <line>4</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution44.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/jianzhiOffer2/Solution44.java</url>
+          <line>17</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/leecode/A.java">
